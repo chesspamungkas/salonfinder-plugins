@@ -1,0 +1,19 @@
+{
+    "name": "dailyvanity/salon-finder-theme",
+    "authors": [
+        {
+            "name": " Catur Pamungkas",
+            "email": "chesspamungkas@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "php-di/php-di": "^6.0",
+        "aws/aws-sdk-php": "^3.112"
+    },
+    "autoload": {
+        "psr-4":{
+            "SF\\" : "src/"
+        }
+    }
+}
